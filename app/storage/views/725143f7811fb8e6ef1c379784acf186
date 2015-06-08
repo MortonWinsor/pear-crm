@@ -1,0 +1,51 @@
+
+<?php $__env->startSection('main'); ?>
+
+<div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+        <h1>Login</h1>
+        <?php echo Form::open(array('action' => 'HomeController@postlogin', 'method' => 'POST')); ?>
+       
+        <?php if($errors->any()): ?>
+        <div class="row">
+            <div class="col-sm-4">
+                <?php if(Session::has('message')): ?>
+                <p><?php echo Session::get('message'); ?></p>
+                <?php endif; ?>
+                <ul>
+                    <?php echo implode('', $errors->all('<li class="error">:message</li>')); ?> 
+                </ul>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <div class="row">
+        	<div class="col-sm-3">
+        		<?php echo Form::label('username', 'Username'); ?> 
+        	</div>
+        	<div class="col-sm-3">
+        		<?php echo Form::text('username', Input::old('username')); ?>
+        	</div>
+        </div>
+
+        <div class="row">
+        	<div class="col-sm-3">
+        		<?php echo Form::label('password', 'Password'); ?> 
+        	</div>
+        	<div class="col-sm-3">
+        		<?php echo Form::password('password'); ?>
+        	</div>
+        </div>
+
+        <div class="row">
+        	<div class="col-sm-2">
+        		<?php echo Form::Submit('Login', array('class' => 'btn btn-info')); ?> 
+        	</div>
+        </div>
+        <?php echo Form::close(); ?>
+        
+    </div>
+</div>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.scaffold', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

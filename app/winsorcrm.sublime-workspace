@@ -1,0 +1,897 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"equip",
+				"equipment"
+			],
+			[
+				"eq",
+				"equip_type"
+			],
+			[
+				"customer",
+				"customer_id"
+			],
+			[
+				"cusomer",
+				"customer_id"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"created",
+				"created_at"
+			],
+			[
+				"filter",
+				"filterDiv"
+			],
+			[
+				"equi",
+				"equipment"
+			],
+			[
+				"jobE",
+				"jobEquip"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"edit-equipment",
+				"edit-equipment-make"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"E",
+				"Equipment"
+			],
+			[
+				"work_",
+				"works_id"
+			],
+			[
+				"works",
+				"works_id"
+			],
+			[
+				"upda",
+				"updated_by"
+			],
+			[
+				"role",
+				"role_id"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"sta",
+				"status_date"
+			],
+			[
+				"status",
+				"status_date"
+			],
+			[
+				"use",
+				"usedParts"
+			],
+			[
+				"job",
+				"job_id"
+			],
+			[
+				"Jo",
+				"JobEquipment"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"create",
+				"created_at"
+			],
+			[
+				"equipm",
+				"Equipment"
+			],
+			[
+				"cu",
+				"customer"
+			],
+			[
+				"equipment",
+				"equipment_id"
+			],
+			[
+				"cus",
+				"customer_id"
+			],
+			[
+				"in",
+				"integer"
+			],
+			[
+				"cust",
+				"customer"
+			],
+			[
+				"new",
+				"newEquip"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"serv",
+				"service_interval"
+			],
+			[
+				"ser",
+				"serial"
+			],
+			[
+				"Test",
+				"TestEquipment"
+			],
+			[
+				"no",
+				"notPaid"
+			],
+			[
+				"units",
+				"units_paid"
+			],
+			[
+				"account",
+				"accountId"
+			],
+			[
+				"conta",
+				"ContactId"
+			],
+			[
+				"Ema",
+				"EmailTo"
+			],
+			[
+				"HR",
+				"HRContact"
+			],
+			[
+				"is_i",
+				"is_integer"
+			],
+			[
+				"Opp",
+				"Opportunity"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"getCo",
+				"getCommissions"
+			],
+			[
+				"C",
+				"CONCAT"
+			],
+			[
+				"opp",
+				"opportunities"
+			],
+			[
+				"User",
+				"UserType"
+			],
+			[
+				"Ac",
+				"Account"
+			],
+			[
+				"contact",
+				"contact_length"
+			],
+			[
+				"Account",
+				"AccountId"
+			],
+			[
+				"contac",
+				"contact_length"
+			],
+			[
+				"U",
+				"UserRole"
+			],
+			[
+				"group",
+				"groupBy"
+			],
+			[
+				"lin",
+				"link_to_route"
+			],
+			[
+				"ca",
+				"caseComments"
+			],
+			[
+				"L",
+				"LastName"
+			],
+			[
+				"sale",
+				"sale"
+			],
+			[
+				"Cretae",
+				"CreatedDate"
+			],
+			[
+				"sales",
+				"salesTotal"
+			],
+			[
+				"con",
+				"contacts"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"stop",
+				"stopwatchId"
+			],
+			[
+				"T",
+				"Type"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"strr",
+				"str_replace"
+			],
+			[
+				"down",
+				"dropdown"
+			],
+			[
+				"is_",
+				"is_array"
+			],
+			[
+				"time",
+				"timeDiff"
+			],
+			[
+				"is",
+				"is_int"
+			],
+			[
+				"Ca",
+				"CalendarEvent"
+			],
+			[
+				"Desct",
+				"Description"
+			],
+			[
+				"Last",
+				"LastModifiedDate"
+			],
+			[
+				"find",
+				"findOrFail"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"order",
+				"orderBy"
+			],
+			[
+				"A",
+				"Auth"
+			],
+			[
+				"Act",
+				"ActivityDateTime"
+			],
+			[
+				"Lead",
+				"LeadSource"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"What",
+				"WhatId"
+			],
+			[
+				"Wha",
+				"WhatId"
+			],
+			[
+				"Wh",
+				"WhoId"
+			],
+			[
+				"Contact",
+				"ContactId"
+			],
+			[
+				"Firt",
+				"Firstname"
+			],
+			[
+				"first",
+				"FirstName"
+			],
+			[
+				"Contac",
+				"ContactId"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"Accoun",
+				"AccountId"
+			],
+			[
+				"Acco",
+				"AccountId"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"Is",
+				"IsDeleted"
+			],
+			[
+				"a",
+				"account"
+			],
+			[
+				"Fir",
+				"FirstName"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"tel",
+				"telesalesTotal"
+			],
+			[
+				"ex",
+				"existingProblem"
+			],
+			[
+				"pr",
+				"priority"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"unit",
+				"unitsId"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"to",
+				"totalTime"
+			],
+			[
+				"CASE",
+				"CaseComment"
+			],
+			[
+				"Remi",
+				"ReminderDateTime"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"MK",
+				"mktime"
+			],
+			[
+				"s",
+				"Salutation"
+			],
+			[
+				"st",
+				"Status"
+			],
+			[
+				"lead",
+				"LeadSource"
+			],
+			[
+				"ra",
+				"rating"
+			],
+			[
+				"dropdow",
+				"dropdownMenu"
+			],
+			[
+				"Creat",
+				"CreatedById"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "routes.php",
+			"settings":
+			{
+				"buffer_size": 4507,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"l",
+				"Laravel Generate: Migration"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 142.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/stephen/vhosts/WinsorCRM/app",
+		"/home/stephen/vhosts/WinsorCRM/app/config",
+		"/home/stephen/vhosts/WinsorCRM/app/database",
+		"/home/stephen/vhosts/WinsorCRM/app/database/migrations",
+		"/home/stephen/vhosts/WinsorCRM/vendor"
+	],
+	"file_history":
+	[
+		"/home/stephen/vhosts/WinsorCRM/app/database/migrations/2015_02_25_164503_create_job_equipment_table.php",
+		"/home/stephen/vhosts/WinsorCRM/app/database/migrations/2014_11_27_221206_create_customers_table.php",
+		"/home/stephen/vhosts/WinsorCRM/app/database/migrations/2014_11_27_222607_create_equipment_table.php",
+		"/home/stephen/vhosts/WinsorCRM/app/database/migrations/2014_11_28_115857_create_jobs_table.php",
+		"/home/stephen/vhosts/WinsorCRM/app/database/seeds/UserTableSeeder.php",
+		"/home/stephen/vhosts/WinsorCRM/public/css/logo-nav.css",
+		"/home/stephen/vhosts/WinsorCRM/app/config/database.php",
+		"/home/stephen/vhosts/WinsorCRM/app/views/layouts/scaffold.blade.php",
+		"/home/stephen/vhosts/WinsorCRM/app/views/jobs/show.blade.php",
+		"/home/stephen/vhosts/WinsorCRM/app/views/order/show.blade.php",
+		"/home/stephen/vhosts/WinsorCRM/app/config/app.php",
+		"/home/stephen/vhosts/WinsorCRM/app/winsorcrm.sublime-project",
+		"/home/stephen/vhosts/WinsorCRM/app/controllers/CustomersController.php",
+		"/home/stephen/vhosts/WinsorCRM/app/views/jobs/create.blade.php",
+		"/home/stephen/vhosts/WinsorCRM/app/models/Customer.php",
+		"/home/stephen/vhosts/WinsorCRM/app/models/Job.php",
+		"/home/stephen/vhosts/WinsorCRM/app/models/Equipment.php",
+		"/home/stephen/vhosts/WinsorCRM/app/models/JobEquipmentPivot.php",
+		"/home/stephen/vhosts/WinsorCRM/app/models/JobEquipment.php",
+		"/home/stephen/vhosts/WinsorCRM/app/controllers/JobsController.php",
+		"/home/stephen/vhosts/WinsorCRM/app/views/customers/show.blade.php",
+		"/home/stephen/vhosts/WinsorCRM/app/models/Order.php",
+		"/home/stephen/vhosts/WinsorCRM/app/views/order/index.blade.php",
+		"/home/stephen/vhosts/WinsorCRM/app/storage/logs/laravel.log",
+		"/C/UniServerZ/vhosts/gitmit/app/views/jobs/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/layouts/scaffold.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/CustomersController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/jobs/show.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/equipment/create.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/order/create.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/JobsController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/Job.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/customers/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/jobs/history.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/users/show.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/OrderController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/EquipmentController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/Equipment.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/UsersController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/Part.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/Order.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/Customer.php",
+		"/C/UniServerZ/vhosts/gitmit/public/css/logo-nav.css",
+		"/C/UniServerZ/vhosts/gitmit/app/storage/views/86d7e131dcf758cc9e09e4e9a7617735",
+		"/C/UniServerZ/vhosts/gitmit/app/views/jobs/create.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/purchase/create.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/purchase/createOrder.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/export/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/types/create.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/types/edit.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/users/create.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/users/edit.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/parts/create.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/parts/edit.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/order/show.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/jobs/edit.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/equipment/edit.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/customers/create.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/customers/edit.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/public/js/bootstrap.js",
+		"/C/UniServerZ/vhosts/gitmit/app/storage/views/26ab83525e2ebc5863c6d1b5d7dfb39f",
+		"/C/UniServerZ/vhosts/gitmit/app/models/JobEquipmentPivot.php",
+		"/C/UniServerZ/vhosts/gitmit/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php",
+		"/C/UniServerZ/vhosts/gitmit/app/gitmit.sublime-project",
+		"/C/UniServerZ/vhosts/gitmit/app/filters.php",
+		"/C/UniServerZ/vhosts/gitmit/app/storage/logs/laravel.log",
+		"/C/UniServerZ/vhosts/gitmit/app/views/types/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/TypesController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/Type.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/CommonPart.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/JobEquipment.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/reports/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/ReportsController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/reports/users.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/storage/views/cc8ec5ddef5e0718f5aa59dac75f1e1a",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/PartsController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/customers/show.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/ExportController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/parts/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/StatusLogging.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/home/user.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/HomeController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/parts/parts.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/home/login.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/config/mail.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/emails/reminder.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/ReminderLog.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/RemindersController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/emails/error.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/start/global.php",
+		"/C/UniServerZ/vhosts/gitmit/app/config/session.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/seeds/JobStatusTableSeeder.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/seeds/UserTableSeeder.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/purchase/show.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/PurchaseController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/User.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_11_28_120822_create_users_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/config/app.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/order/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_11_27_222607_create_equipment_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/seeds/PartStatusTableSeeder.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/Purchase.php",
+		"/C/UniServerZ/vhosts/gitmit/app/config/packages/thujohn/pdf/config.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/PurchaseItem.php",
+		"/C/UniServerZ/vhosts/gitmit/app/config/packages/ignited/laravel-pdf/config.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_27_090840_create_reminder_log_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_161107_create_purchase_item_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/order/history.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/OrderItem.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/equipment/show.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/reminders/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/config/database.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_160736_create_order_item_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/PartStatus.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_160646_create_order_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/controllers/PointOfSaleController.php",
+		"/C/UniServerZ/vhosts/gitmit/app/views/pointOfSales/index.blade.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/seeds/TypesTableSeeder.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/seeds/WorkTableSeeder.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_110206_create_parts_status_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_164503_create_job_equipment_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_12_04_223541_create_parts_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_161036_create_purchase_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/models/JobStatus.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_162300_create_job_order_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_12_04_223504_create_job_status_table.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/seeds/DatabaseSeeder.php",
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_11_28_114119_create_reminders_table.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"updated_at",
+			");\n",
+			"cpart",
+			", ",
+			" , ",
+			" => ",
+			"work",
+			"work-checked",
+			"out",
+			"jobs",
+			"user",
+			"equipment",
+			"');\n",
+			"task",
+			"uploads",
+			"Redirect::to",
+			"               \n",
+			"$data",
+			"View",
+			"userType",
+			"') ",
+			" ')",
+			" Form::select('",
+			" Form::text('",
+			"task",
+			"sometimes|",
+			"somtimes|",
+			"') ",
+			" Form::textarea('",
+			" Form::text('",
+			" Form::select('",
+			"account",
+			"{{ Form::select('",
+			"{{ Form::textarea('",
+			"{{ Form::text('",
+			"{{{",
+			"') }}",
+			"{{ Form::textarea('",
+			"{{ Form::checkbox('",
+			"{{ Form::text('",
+			"{{ Form::select('",
+			"') }}",
+			" Form::select('",
+			" Form::textarea('",
+			" Form::text('",
+			" Form::checkbox('",
+			"') ",
+			" Form::select('",
+			" Form::text('",
+			" Form::textarea('",
+			" Form::select('",
+			" Form::text('",
+			"') }}",
+			" ) }}",
+			"rating",
+			"{{ Form::textarea('",
+			"{{ Form::checkbox('",
+			"{{ Form::text('",
+			"{{ Form::select('",
+			"{{ Form::label('",
+			"->before('auth')"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"' , '",
+			"' => '",
+			"waiting-parts",
+			"complete",
+			"work",
+			"equipment",
+			"user",
+			"event",
+			"fileUploads",
+			"$dbdata",
+			"UserType",
+			" }",
+			"{ $user->",
+			"event",
+			"",
+			" }",
+			"{ $case->",
+			"contact",
+			"{{{ $task->",
+			" }}}",
+			"}}}",
+			"{{{ $event->",
+			" }}}",
+			"{ $opportunity->",
+			"{ $contact->",
+			" }",
+			"{ $contact->",
+			"{ $account->",
+			"{{{ $account->",
+			" }}}",
+			"'",
+			"type",
+			"{{{ $lead->",
+			"",
+			")"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4224,
+								4224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "winsorcrm.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

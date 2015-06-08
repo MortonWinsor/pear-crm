@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"name": "Winsor CRM - App",
+			"path": "./"
+		},
+		{
+			"name": "Winsor CRM - public",
+			"path": "../public"
+		},
+		{
+			"name": "Winsor CRM - vendor",
+			"path": "../vendor"
+		}
+	]
+}

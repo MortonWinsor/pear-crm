@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Winsor - CRM</title>
+
+    <!-- Bootstrap Core CSS -->
+    <?php echo HTML::style('css/bootstrap.min.css'); ?>
+
+    <!-- Custom CSS -->
+    <?php echo HTML::style('css/logo-nav.css'); ?>
+
+    <?php echo HTML::style('css/jquery-ui.min.css'); ?>
+    <?php echo HTML::style('css/jquery-ui.structure.min.css'); ?>
+    <?php echo HTML::style('css/jquery-ui.theme.min.css'); ?>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery Version 1.11.0 -->
+    <?php echo HTML::script('js/jquery-1.11.0.js'); ?>
+    <?php echo HTML::script('js/jquery-ui.min.js'); ?>
+
+    <!-- Bootstrap Core JavaScript -->
+    <?php echo HTML::script('js/bootstrap.js'); ?>
+<script type="text/javascript">
+var bootstrapDropDown = $.fn.dropdown.noConflict() // return $.fn.button to previously assigned value
+$.fn.bootstrapDropDown = bootstrapDropDown            // give $().bootstrapBtn the Bootstrap functionality
+
+var bootstrapBtn = $.fn.button.noConflict() // return $.fn.button to previously assigned value
+$.fn.bootstrapBtn = bootstrapBtn            // give $().bootstrapBtn the Bootstrap functionality
+
+var bootstrapToolTip = $.fn.tooltip.noConflict() // return $.fn.button to previously assigned value
+$.fn.bootstrapToolTip = bootstrapToolTip            // give $().bootstrapBtn the Bootstrap functionality
+
+    $(function() {
+
+        $('.btn').button();
+
+    });
+</script>   
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="<?php echo route('work.create'); ?>">
+                    <?php echo HTML::image('images/MortonWinsor-logo.png', 'Winsor CRM', array('title' => 'Winsor CRM', 'style' => 'width: 170px;')); ?>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <?php if(Auth::check()): ?>
+                <ul class="nav navbar-nav">
+                    <?php if(Auth::user()->role_id < 3): ?>
+                    <li>
+                        <a href="<?php echo route('work.create'); ?>">New Work</a>
+                    </li>
+                    <?php endif; ?>
+                    <li>
+                        <a href="<?php echo route('work.index', array('tab' => 'in')); ?>">All Work</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo route('work.index', array('tab' => 'part')); ?>">Waiting Parts</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo route('work.index', array('tab' => 'comp')); ?>">Work Complete</a>
+                    </li>
+                    <?php if(Auth::user()->role_id < 3): ?>
+                    <li>
+                        <a href="<?php echo route('work.history'); ?>">Work History</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo route('orders.index'); ?>">Orders</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo route('customer.index'); ?>">Customers</a>
+                    </li>
+                    <?php if(Auth::user()->role_id == 1): ?>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Reports <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="<?php echo route('reports.index'); ?>">Reports</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo route('export'); ?>">Exports</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Setting <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="<?php echo route('parts.index'); ?>">Parts</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo route('types.index'); ?>">Machine Types</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="<?php echo route('users.index'); ?>">Users</a>
+                    </li>
+                    <?php endif; ?>
+                    <?php endif; ?>
+                    <?php if(Auth::user()->role_id == 3): ?>
+                    <li>
+                        <a href="<?php echo route('changeuser'); ?>">Change User</a>
+                    </li>
+                    <?php endif; ?>
+                    <li>
+                        <a href="<?php echo route('users.logout'); ?>">Log Out</a>
+                    </li>
+                </ul>
+                <?php endif; ?>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container main">
+        <div class="row">
+            <div class="col-lg-12">
+                <?php if(Session::has('top-message')): ?>
+                    <p><?php echo Session::get('top-message'); ?></p>
+                <?php endif; ?>
+                <?php if(Auth::check() && Auth::user()->role_id == 3): ?>
+                    <p>You are log in as <?php echo Auth::user()->username; ?></p>
+                <?php endif; ?>
+            </div>
+        </div>
+         <?php echo $__env->yieldContent('main'); ?>
+<br />
+<br />
+    </div>
+    <!-- /.container -->
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+.navbar {
+  min-height: 130px;
+}
+
+.btn {
+	margin-bottom: 3px;
+}
+
+.ui-dialog-titlebar {
+	display: none;
+}
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+  * html .ui-autocomplete {
+    height: 100px;
+  }
+
+  .navbar-inverse {
+    background-color: #000;
+  }
+
+  table tr td, table tr th {
+    padding: 3px;
+  }
+
+  input {
+    margin-bottom: 4px;
+  }
+
+  .blue {
+    color: #428BCA;
+  }
+
+  .orange {
+    color: #FD5800;
+  }
+
+  .us, .red {
+  	color: #ab0000;
+  }
