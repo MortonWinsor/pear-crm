@@ -8,12 +8,7 @@ class CommonPartsTableSeeder extends Seeder {
 	public function run()
 	{
 		$data = array(
-					array('part'=>'Fuel Filter'),
-					array('part'=>'Oil Filter'),
-					array('part'=>'Air Filter'),
-					array('part'=>'Spark Plug'),
-					array('part'=>'Sharpening'),
-					array('part'=>'Labour')
+					//array('part'=>'FExample')
 				);
 
 		DB::Table('common_parts')->insert($data);

@@ -516,13 +516,14 @@
 	"expanded_folders":
 	[
 		"/home/stephen/vhosts/WinsorCRM/app",
-		"/home/stephen/vhosts/WinsorCRM/app/config",
-		"/home/stephen/vhosts/WinsorCRM/app/database",
 		"/home/stephen/vhosts/WinsorCRM/app/database/migrations",
+		"/home/stephen/vhosts/WinsorCRM/app/views",
 		"/home/stephen/vhosts/WinsorCRM/vendor"
 	],
 	"file_history":
 	[
+		"/home/stephen/vhosts/WinsorCRM/app/config/mail.php",
+		"/home/stephen/vhosts/WinsorCRM/app/views/emails/reminder.blade.php",
 		"/home/stephen/vhosts/WinsorCRM/app/database/migrations/2015_02_25_164503_create_job_equipment_table.php",
 		"/home/stephen/vhosts/WinsorCRM/app/database/migrations/2014_11_27_221206_create_customers_table.php",
 		"/home/stephen/vhosts/WinsorCRM/app/database/migrations/2014_11_27_222607_create_equipment_table.php",
@@ -648,9 +649,7 @@
 		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_161036_create_purchase_table.php",
 		"/C/UniServerZ/vhosts/gitmit/app/models/JobStatus.php",
 		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_162300_create_job_order_table.php",
-		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_12_04_223504_create_job_status_table.php",
-		"/C/UniServerZ/vhosts/gitmit/app/database/seeds/DatabaseSeeder.php",
-		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_11_28_114119_create_reminders_table.php"
+		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_12_04_223504_create_job_status_table.php"
 	],
 	"find":
 	{

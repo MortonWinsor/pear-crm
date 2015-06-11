@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=7eded94407737c143205)
- * Config saved to config.json and https://gist.github.com/7eded94407737c143205
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=abd3b41922a69fa2f4d8)
+ * Config saved to config.json and https://gist.github.com/abd3b41922a69fa2f4d8
  */
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
@@ -230,8 +230,6 @@ if (typeof jQuery === 'undefined') {
     })
 
 }(jQuery);
-
-
 
 /* ========================================================================
  * Bootstrap: carousel.js v3.3.4

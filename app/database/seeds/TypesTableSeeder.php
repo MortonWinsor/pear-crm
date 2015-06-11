@@ -8,13 +8,7 @@ class TypesTableSeeder extends Seeder {
 	public function run()
 	{
 		$data = array(
-					array('name'=>'Lawn Mowers'),
-					array('name'=>'Lawn Tractors'),
-					array('name'=>'Chainsaws'),
-					array('name'=>'Bushcutters'),
-					array('name'=>'Blowers'),
-					array('name'=>'Hedge Trimmers'),
-					array('name'=>'Log Splitters')
+					array('name'=>'Example')
 				);
 
 		DB::Table('types')->insert($data);
