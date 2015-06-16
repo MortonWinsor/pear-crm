@@ -516,12 +516,16 @@
 	"expanded_folders":
 	[
 		"/home/stephen/vhosts/WinsorCRM/app",
-		"/home/stephen/vhosts/WinsorCRM/app/database/migrations",
-		"/home/stephen/vhosts/WinsorCRM/app/views",
+		"/home/stephen/vhosts/WinsorCRM/app/database",
+		"/home/stephen/vhosts/WinsorCRM/app/database/seeds",
+		"/home/stephen/vhosts/WinsorCRM/app/views/layouts",
 		"/home/stephen/vhosts/WinsorCRM/vendor"
 	],
 	"file_history":
 	[
+		"/home/stephen/vhosts/WinsorCRM/app/views/layouts/scaffold.blade.php",
+		"/home/stephen/vhosts/WinsorCRM/app/database/seeds/CommonPartsTableSeeder.php",
+		"/home/stephen/vhosts/WinsorCRM/app/database/seeds/TypesTableSeeder.php",
 		"/home/stephen/vhosts/WinsorCRM/app/config/mail.php",
 		"/home/stephen/vhosts/WinsorCRM/app/views/emails/reminder.blade.php",
 		"/home/stephen/vhosts/WinsorCRM/app/database/migrations/2015_02_25_164503_create_job_equipment_table.php",
@@ -531,7 +535,6 @@
 		"/home/stephen/vhosts/WinsorCRM/app/database/seeds/UserTableSeeder.php",
 		"/home/stephen/vhosts/WinsorCRM/public/css/logo-nav.css",
 		"/home/stephen/vhosts/WinsorCRM/app/config/database.php",
-		"/home/stephen/vhosts/WinsorCRM/app/views/layouts/scaffold.blade.php",
 		"/home/stephen/vhosts/WinsorCRM/app/views/jobs/show.blade.php",
 		"/home/stephen/vhosts/WinsorCRM/app/views/order/show.blade.php",
 		"/home/stephen/vhosts/WinsorCRM/app/config/app.php",
@@ -647,9 +650,7 @@
 		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_164503_create_job_equipment_table.php",
 		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_12_04_223541_create_parts_table.php",
 		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_161036_create_purchase_table.php",
-		"/C/UniServerZ/vhosts/gitmit/app/models/JobStatus.php",
-		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2015_02_25_162300_create_job_order_table.php",
-		"/C/UniServerZ/vhosts/gitmit/app/database/migrations/2014_12_04_223504_create_job_status_table.php"
+		"/C/UniServerZ/vhosts/gitmit/app/models/JobStatus.php"
 	],
 	"find":
 	{

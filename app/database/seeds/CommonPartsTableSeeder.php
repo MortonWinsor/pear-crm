@@ -8,7 +8,7 @@ class CommonPartsTableSeeder extends Seeder {
 	public function run()
 	{
 		$data = array(
-					//array('part'=>'FExample')
+					//array('part'=>'Example')'
 				);
 
 		DB::Table('common_parts')->insert($data);

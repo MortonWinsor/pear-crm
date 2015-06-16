@@ -1,0 +1,35 @@
+Installing pear crm requires a little technical knowledge, if you need help please contact the developers pear-crm@mortonwinsor.co.uk.0
+
+To install pear crm onto your computer, you will need to install a webserver with php, and a database server.  Pear crm has been developed using mySQL but Laravel has drivers for other database so they may work but have not been tested.
+
+Once these have been installed, then extract the pear crm file to the root directory of your webserver.  Now edit the files listed below:
+
+{webroot}/app/config/database.php
+{webroot/app/database/seeds/CommonPartsTableSeeder.php
+{webroot}/app/database/seeds/TypesTableSeeder.php
+
+The database.php file requires the information to connect to your database server, there are multiple database servers available so you will need to add the details for the server that you are using.  The information is stored in an array.  At this point you will need to create a database for pear crm to use and enter its name into this file.
+
+The CommonPartsTableSeeder.php and TypesTableSeeder.php files are part of a group of files to enter information into the database ready to be used.  Both files have an example included, of how they need to be to add more information.  You will need to uncomment out the example (remove the "//"). Common parts are parts that may be changed by the engineer while servicing the equipment. Types are the types of equipment that the engineers will service.
+
+Next download composer from https://getcomposer.org/download/ a copy the file composer.phar) to the webroot directory.
+
+The next task is to run some commands in the command prompt (cmd.exe) or terminal, so open it and use the cd command to go to the the directory where pear crm is installed.  The commands to run are php commands so on Windows, you will need to where php.exe, unless you set up php.exe in the path windows variable.
+
+Now run the following commands in the command prompt or terminal
+
+path/to/php composer update
+path/to/php artisan migrate
+path/to/php artsan db:seed
+
+composer update istalls the laravel framework
+artisan migrate creates the database tables
+artian db:seed populates the database tables with the required information
+
+Congratulations you have now installed pear crm. You can usaully access it at: http://localhost/public/
+
+Additionally you can change the logo to your logo by moving a picture file of your logo to {webroot}/public/images folder and change line 69 on {webroot}/app/views/layouts/scaffold.php to your logo file.  This may require changes to styles found in {webroot}/public/css/logo-nav.css lines 7 for heigt and line 32 for the colour.
+
+As stated above, if you require assistance, please contact us: pear-crm@mortonwinsor.co.uk.
+
+

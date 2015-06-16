@@ -8,7 +8,7 @@ class TypesTableSeeder extends Seeder {
 	public function run()
 	{
 		$data = array(
-					array('name'=>'Example')
+					//array('name'=>'Example'),
 				);
 
 		DB::Table('types')->insert($data);
